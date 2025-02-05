@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TED</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans antialiased text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-4xl font-bold text-red-600 flex items-center ">TED <span
+                      class="text-sm font-normal text-gray-400 ml-2">Idea
+                    changes
+                    everything</span></a>
+
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 px-2 py-2 hover:bg-gray-100">Watch</a>
+                <a href="#" class="text-gray-700 px-2 py-2 hover:bg-gray-100">Discover</a>
+                <a href="#" class="text-gray-700 px-2 py-2 hover:bg-gray-100">Attend</a>
+                <a href="#" class="text-gray-700 px-2 py-2 hover:bg-gray-100">Participate</a>
+                <a href="#" class="text-gray-700 px-2 py-2 hover:bg-gray-100">About</a>
+                <a href="#"
+                   class=" bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded">Membership</a>
+            </nav>
+            <button class="md:hidden text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <hr />
+    <!-- Hero Section -->
+    <section class=" pb-10 pt-8  flex items-center justify-center">
+        <div class="text-left w-1/2 px-8 py-4">
+            <h3 class="text-red-600 font-bold text-sm">SCIENCE</h3>
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-700 mb-4">Are we alone in the universe? We're close to
+                finding out</h1>
+            <p class="text-l md:text-l text-gray-600 mb-5">Astrophysicist Lisa Kaltenegger explores the thrilling
+                possibility of discovering life beyond Earth, highlighting how
+                cutting-edge technology like the James Webb Space Telescope lets us analyze distant planets for signs of
+                life in
+                unprecedented detail. Could examining these "alien earths" uncover evidence of new life forms and
+                transform our
+                understanding of the cosmos? We may be closer than ever to finding out.</p>
+            <span class="text-sm font-normal text-gray-400">Lisa Kaltenegger <br>
+                263K views · 8 days ago</span>
+        </div>
+        <div class="text-center w-1/2 ">
+            <img src="assets/LisaKaltenegger_2024N-embed.jpeg" alt="">
+        </div>
+    </section>
+    <hr />
+
+    <!-- Featured Talks -->
+    <section class="pb-10 pm-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-6 divide-x">
+            <!-- Card 1 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/featured-section/JennyChase_2024T-embed.jpeg" alt="Solar Energy"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">Climate Change</p>
+                    <h2 class="text-lg font-bold mt-2">Solar energy is even cheaper than you think</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Jenny Chase • 477K views • 23 days ago</p>
+                    <p class="mt-4 text-sm text-right text-gray-800">8 min</p>
+                </div>
+            </div>
+            <!-- <div class="vr"></div> -->
+            <!-- Card 2 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/featured-section/TEDExplains_Risks-2025_1350x675.jpeg" alt="Global Risks"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">Global Issues</p>
+                    <h2 class="text-lg font-bold mt-2">The biggest global risks for 2025</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Ian Bremmer • 727K views • 28 days ago</p>
+                    <p class="mt-4 text-sm text-right text-gray-800">44 min</p>
+                </div>
+            </div>
+            <!-- <div class="vr"></div> -->
+            <!-- Card 3 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/featured-section/JulieannaLRichardson_2021X-embed.jpeg"
+                     alt="Safeguarding Black History"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">Culture</p>
+                    <h2 class="text-lg font-bold mt-2">The mission to safeguard Black history in the US</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Julieanna L. Richardson • 1.6M views • 3 years ago</p>
+                    <p class="mt-4 text-sm text-right text-gray-800">15 min</p>
+                </div>
+            </div>
+            <!-- <div class="vr"></div> -->
+            <!-- Card 4 -->
+            <div class="flex flex-col bg-white overflow-hidden px-4">
+                <img src="assets/featured-section/AlexandrWang_2023-embed.jpeg" alt="AI and Global Arms Race"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">Technology</p>
+                    <h2 class="text-lg font-bold mt-2">War, AI and the new global arms race</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Alexandr Wang • 1.2M views • 2 years ago</p>
+                    <p class="mt-4 text-sm text-right text-gray-800">9 min</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discover Section -->
+    <section id="discover-section" class="py-8 bg-black text-white font-sans">
+        <div class="container mx-auto px-4 flex ">
+            <h2 class="text-3xl font-semibold mx-auto">Discover</h2>
+            <div class="flex items-center space-x-4 overflow-x-auto scrollbar-hide">
+                <!-- Category Buttons -->
+                <button class="text-white font-medium py-2 px-4 rounded-lg hover:bg-stone-500"
+                        style="background-color: #4D4D4D;">
+                    TED-Ed
+                </button>
+                <button class=" text-white font-medium py-2 px-4 rounded-lg hover:bg-stone-500"
+                        style="background-color: #4D4D4D;">
+                    Psychology
+                </button>
+                <button class=" text-white font-medium py-2 px-4 rounded-lg hover:bg-stone-500"
+                        style="background-color: #4D4D4D;">
+                    Leadership
+                </button>
+                <button class=" text-white font-medium py-2 px-4 rounded-lg hover:bg-stone-500"
+                        style="background-color: #4D4D4D;">
+                    Education
+                </button>
+                <button class="text-white font-medium py-2 px-4 rounded-lg hover:bg-stone-500"
+                        style="background-color: #4D4D4D;">
+                    AI
+                </button>
+                <button class=" text-white font-medium py-2 px-4 rounded-lg hover:bg-stone-500"
+                        style="background-color: #4D4D4D;">
+                    Sleep
+                </button>
+                <button class=" text-white font-medium py-2 px-4 rounded-lg hover:bg-stone-500"
+                        style="background-color: #4D4D4D;">
+                    Mental Health
+                </button>
+                <button class=" text-white font-medium py-2 px-4 rounded-lg hover:bg-stone-500"
+                        style="background-color: #4D4D4D;">
+                    Business
+                </button>
+                <!-- See All Button -->
+                <div class="flex items-center">
+                    <button class=" text-white font-medium p-2 rounded-full hover:bg-stone-500"
+                            style="background-color: #4D4D4D;">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </button>
+                    <a href="#" class="text-blue-400 hover:underline ml-2">See all</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <!-- recommended section -->
+    <section class="my-8 py-4 border-y-2 border-gray-500">
+        <div class="max-w-6xl mx-auto">
+            <!-- Heading -->
+            <h1 class="text-2xl font-bold mb-6">Recommended for you</h1>
+
+            <!-- Grid Container -->
+            <div class="grid grid-cols-4 lg:grid-cols-4 divide-x">
+                <!-- Left Article -->
+                <div class="lg:col-span-2 px-4">
+                    <div class="bg-white overflow-hidden">
+                        <img src="assets/recommended/DeanFurness_2020S-embed.jpeg" alt="Thumbnail"
+                             class="w-full h-56 object-cover">
+                        <div class="p-4">
+                            <span class="text-red-500 text-sm font-bold uppercase">Sports</span>
+                            <h2 class="text-xl font-bold mt-2">To overcome challenges, stop comparing yourself to others
+                            </h2>
+                            <p class="text-gray-600 mt-2">
+                                When you stop comparing yourself to others, you can accomplish great things, says
+                                wheelchair
+                                athlete Dean Furness.
+                                He shares how, after losing the use of his legs in an accident, he discovered a powerful
+                                new
+                                mindset...
+                            </p>
+                            <div class="text-gray-500 text-sm mt-4">
+                                Dean Furness • 3.96M views • 5 years ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" lg:col-span-1 bg-white px-4">
+                    <img src="assets/recommended/EmilyGrubert_2022T-embed.jpeg" alt="Thumbnail"
+                         class="w-full h-56 object-cover">
+                    <span class="text-red-500 text-sm font-bold uppercase">Climate Change</span>
+                    <h3 class="text-lg font-bold mt-2">
+                        What happens to gas stations when the world goes electric?
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        When the world goes fully electric, what happens to the cars, tools, and livelihoods that
+                        rely on
+                        fossil fuels?
+                    </p>
+                    <div class="text-gray-500 text-sm mt-4">
+                        Emily Grubert • 1.36M views • 2 years ago
+                    </div>
+                </div>
+
+                <!-- Right Section -->
+                <div class="space-y-6 divide-y">
+                    <!-- Article 1 -->
+                    <div class="bg-white p-4">
+                        <span class="text-red-500 text-sm font-bold uppercase">Environment</span>
+                        <h3 class="text-lg font-bold mt-2">
+                            AI is dangerous, but not for the reasons you think
+                        </h3>
+                        <div class="text-gray-500 text-sm mt-4">
+                            Sasha Luccioni • 1.94M views • 1 year ago
+                        </div>
+                    </div>
+
+                    <!-- Article 2 -->
+                    <div class="bg-white p-4">
+                        <span class="text-red-500 text-sm font-bold uppercase">Education</span>
+                        <h3 class="text-lg font-bold mt-2">
+                            How friendship affects your brain
+                        </h3>
+                        <div class="text-gray-500 text-sm mt-4">
+                            Shannon Odell • 1.47M views • 2 years ago
+                        </div>
+                    </div>
+
+                    <!-- Article 3 -->
+                    <div class="bg-white p-4">
+                        <span class="text-red-500 text-sm font-bold uppercase">Business</span>
+                        <h3 class="text-lg font-bold mt-2">
+                            The cost of work stress -- and how to reduce it
+                        </h3>
+                        <div class="text-gray-500 text-sm mt-4">
+                            Rob Cooke • 2.97M views • 5 years ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new-TED-Section -->
+    <section id="new-TED-section" class=" py-4 border-b-2 border-gray-500 ">
+        <div class="flex justify-between align-center px-8">
+            <h3 class="text-s font-semibold text-black-500 uppercase">newest from ted</h3>
+            <a href="http://" target="_blank"
+               class="text-l text-black-600 font-bold underline decoration-black capitalize">Browse all
+                newest</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-4 divide-x text-decoration-border">
+            <!-- Card 1 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/Newest-TED/gettingunstuck_textless.jpg" alt="Solar Energy"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">Climate Change</p>
+                    <h2 class="text-lg font-bold mt-2">TED Explores: Food for the Future</h2>
+                    <p class="text-gray-600 mt-2 text-sm">TED Countdown · 3 hours ago</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/Newest-TED/JonYoushaei_2024N-embed.jpg" alt="Global Risks"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">entertainment</p>
+                    <h2 class="text-lg font-bold mt-2">Is perfectionism just procrastination in disguise?</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Jon Youshaei · 3 hours ago</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/Newest-TED/SuryaGanguli_2024S-embed.jpg"
+                     alt="Safeguarding Black History"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">education</p>
+                    <h2 class="text-lg font-bold mt-2">Why you feel stuck — and how to get motivated</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Shannon Odell · 1 day ago</p>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="flex flex-col bg-white overflow-hidden px-4">
+                <img src="assets/Newest-TED/TEDCountdown_FoodForTheFuture_2024T-embed.jpg" alt="AI and Global Arms Race"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">science</p>
+                    <h2 class="text-lg font-bold mt-2">Can AI match the human brain?</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Surya Ganguli · 1 day ago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular-Ted-Section -->
+    <section id="popular-TED-section" class=" py-4 border-b-2 border-gray-500 ">
+        <div class="flex justify-between align-center px-8">
+            <h3 class="text-s font-semibold text-black-500 uppercase">popular on ted</h3>
+            <a href="http://" target="_blank"
+               class="text-l text-black-600 font-bold underline decoration-black capitalize">Browse all
+                popular</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-4 divide-x text-decoration-border">
+            <!-- Card 1 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/popular-TED/LeraBoroditsky_2017W-embed.jpg" alt="Solar Energy"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">science</p>
+                    <h2 class="text-lg font-bold mt-2">How language shapes the way we think</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Lera Boroditsky · 24M views · 7 years ago</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/popular-TED/MollyGraham_2024N-embed.jpg" alt="Global Risks"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">Business</p>
+                    <h2 class="text-lg font-bold mt-2">Forget the corporate ladder — winners take risks</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Molly Graham · 819K views · 2 months ago</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="flex flex-col bg-white px-4 overflow-hidden">
+                <img src="assets/popular-TED/RhainaCohen_2024N-embed.jpg"
+                     alt="Safeguarding Black History"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">love</p>
+                    <h2 class="text-lg font-bold mt-2">Why friendship can be just as meaningful as romantic love</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Rhaina Cohen · 581K views · 3 months ago</p>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="flex flex-col bg-white overflow-hidden px-4">
+                <img src="assets/popular-TED/SergiuPPasca_2022-embed.jpg" alt="AI and Global Arms Race"
+                     class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <p class="text-xs font-semibold text-red-500 uppercase">science</p>
+                    <h2 class="text-lg font-bold mt-2">How we're reverse engineering the human brain in the lab</h2>
+                    <p class="text-gray-600 mt-2 text-sm">Sergiu P. Pasca · 3.8M views · 2 years ago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner-section -->
+
+    <section class=" pb-10 pt-8  grid grid-cols-3 lg:grid-cols-3 border-b-2 border-gray-500">
+        <div class="text-left px-8 py-4 lg:col-span-1">
+            <h1 class="text-3xl md:text-4xl font-bold text-black-700 mb-4">Unlock your greatest potential</h1>
+            <p class="text-l md:text-l text-gray-600 mb-5">Become a TED Member today to build a better future – and a
+                better you. TED Members champion world-changing ideas and
+                receive exclusive benefits including digital access to TED2025.</p>
+            <button class="bg-black hover:bg-black-700 text-white font-bold p-3 capitalize rounded-md">join
+                today</button>
+        </div>
+        <div class="text-center lg:col-span-2">
+            <img src="assets/Z5qQVJbqstJ9-A8Q_Membership_Welcome_GIF_FINAL-1-.avif" alt="">
+        </div>
+    </section>
+
+    <section id="trending-ideas-section" class="py-6 ">
+        <div class="flex align-center p-4">
+            <h3 class="text-s font-semibold text-black-500 uppercase">trending ideas</h3>
+        </div>
+        <hr />
+        <div class="grid grid-cols-3 px-8">
+            <h1 class="text-8xl font-bold text-black-500 uppercase col-span-2">ai</h1>
+            <div>
+                <p classs="text-l md:text-l text-gray-600 col-span-2">Gain a deeper understanding of AI and its impact
+                    on our world — uncover its potential, and feel inspired to tackle this
+                    transformative field.</p>
+                <a href="http://" target="_blank"
+                   class="text-l text-black-600 font-semibold underline decoration-black capitalize">Browse all ai</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto px-4 text-center text-gray-400">
+            <p>&copy; 2025 TED Conferences, LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
