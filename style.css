@@ -7,10 +7,34 @@ body {
 }
 
 .vr {
-
     border-left: 1px solid #cacaca;
-
     height: relative;
     width: 1px;
+}
 
+a>i {
+    background: white;
+    color: black;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 45px;
+}
+
+form.flex {
+    position: relative;
+}
+
+button.bg-white.text-black.px-4.py-2.rounded {
+    background: black;
+    color: white;
+    position: absolute;
+    right: .2%;
+    top: 1px;
+    padding: 12px 30px;
+}
+
+input.w-full.px-4.py-2.rounded.text-black {
+    height: 50px;
 }
